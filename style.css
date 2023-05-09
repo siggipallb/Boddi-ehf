@@ -162,7 +162,7 @@ nav li:last-child {
 }
 
 /* styles for screens up to 480px wide */
-@media (min-width: 0px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 480px){
     .headerstyle {
       font-size: 24px;
     }
