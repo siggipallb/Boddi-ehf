@@ -11,6 +11,17 @@
     margin-bottom: 4rem;
 }
 
+.section1 h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .section1 p {
     text-align: center;
     margin-bottom: 1rem;
@@ -42,6 +53,7 @@
 .section4 {
     border: 2px solid;
     border-image: linear-gradient(to right, #4285F4, #DB4437, #F4B400, #0F9D58) 1;
+    background: linear-gradient(to right, rgba(66, 133, 244, 0.5), rgba(219, 68, 55, 0.5), rgba(244, 180, 0, 0.5), rgba(15, 157, 88, 0.5));
     padding: 2rem;
     margin-bottom: 4rem;
 }
@@ -50,6 +62,13 @@
     text-align: center;
     margin-bottom: 2rem;
 }
+
+.googleimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .section4 p {
     font-size: 1.8rem;
@@ -87,4 +106,65 @@
     text-align: center;
     font-family: Arial, sans-serif;
     margin-bottom: 2rem;
+}
+
+
+.duckduckgo-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #444444;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.duckduckgo-logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.search-input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.search-button {
+    background-color: #D51920;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #B5171D;
+}
+
+@media (max-width: 600px) {
+    .search-container {
+        flex-direction: column;
+    }
+
+    .duckduckgo-logo {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .search-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
 }

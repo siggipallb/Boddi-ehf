@@ -1,326 +1,238 @@
 .headerstyle {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    font-size: 32px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 32px;
 }
 
 nav {
-    text-align: center;
+  text-align: center;
 }
 
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-    border-right: 1px solid #333;
-    padding-right: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-  
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  border-right: 1px solid #333;
+  padding-right: 10px;
+}
+
 nav li:last-child {
-    border-right: none;
-    padding-right: 0;
+  border-right: none;
+  padding-right: 0;
 }
 
 .scania {
-    background: url('medium-scania-pic.png') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding: 50px;
+  background: url('medium-scania-pic.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 50px;
 }
 
 .medium-boxes {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  grid-gap: 20px;
 }
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 10px;
-    font-size: 16px;
-    text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
 }
 
 .section-myndir {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .myndir-2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 10px;
-  }
-  
-  .myndir-2-items {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.myndir-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+}
+
+.myndir-2-items {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .footerbox {
-    font-family: Arial, sans-serif;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 .socials {
-    margin-top: 10px;
-    width: 50%;
-    float: left;
+  margin-top: 10px;
+  width: 50%;
+  float: left;
 }
 
 .sourcecode {
-    width: 50%;
-    margin-left: 25%;
-    padding: 20px;
-    box-sizing: border-box;
-    transition: transform 0.3s ease-out;
+  width: 50%;
+  margin-left: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out;
 }
 
 .sourcecode:hover {
-  transform: scale(1.1);
+transform: scale(1.1);
 }
 
 .locationbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-top: 10px;
 }
 
 .locationbox h3 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .location {
-    margin-top: 10px;
-    width: 50%;
-    float: right;
+  margin-top: 10px;
+  width: 50%;
+  float: right;
+}
+
+
+
+iframe {
+  width: 400px;
+  height: 300px;
+  border: 0;
+  margin-right: 500px;
+}
+
+.moreinfo {
+  width: 50%;
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 
 .moreinfo {
-    width: 50%;
-    float: right;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-
-.moreinfo {
-    width: 50%;
-    float: right;
+  width: 50%;
+  float: right;
 }
 
 .moreinfo a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
 }
 
 
 .boxarrow {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-  }
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
 
 .arrow {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
-    border-radius: 100%;
-  
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  border-radius: 100%;
+
 }
-  
+
 .arrow:hover {
-    transform: rotate(-45deg) scale(1.2);
+  transform: rotate(-45deg) scale(1.2);
 }
-  
+
 .arrow:before {
-    display: inline-block;
-    width: 20px;
-    height: 3px;
-    transform: rotate(45deg);
-    margin-right: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  transform: rotate(45deg);
+  margin-right: 10px;
 }
 
 /* styles for screens up to 480px wide */
-@media (min-width: 0px) and (max-width: 480px){
-    .headerstyle {
+@media only screen and (max-width: 480px) {
+  .headerstyle {
       font-size: 24px;
-    }
-    
-    nav li {
-      margin-right: 10px;
-    }
-    
-    .medium-boxes {
-      grid-template-columns: 1fr;
-    }
-    
-    .location, .moreinfo, .socials {
+  }
+  .medium-boxes {
+      grid-template-columns: auto;
+  }
+  .socials {
       width: 100%;
       float: none;
-    }
-    
-    .locationbox {
-      margin-left: 0;
-    }
-    
-    .sourcecode {
-      margin-left: 0;
-    }
-    
-    .myndir-2 {
-      grid-template-columns: 1fr;
-    }
-    
-    .myndir-2-items {
-        margin-top: 20px;
-        width: 400px;
-        height: 130px;
-    }
-
-    img {
-        max-width: 100%;
-        object-fit: contain;
-      }
-    
-    .scania {
-      padding: 20px;
-    }
-  
-    section iframe {
-      width: 100%;
-      height: 200px;
-    }
-
   }
-  
-  
-  /* styles for screens between 480px and 768px wide */
-  @media screen and (min-width: 481px) and (max-width: 768px) {
-    .headerstyle {
-      font-size: 28px;
-    }
-    
-    nav li {
-      margin-right: 15px;
-    }
-    
-    .medium-boxes {
-      grid-template-columns: 1fr 1fr;
-    }
-    
-    .location, .moreinfo, .socials {
+  .sourcecode {
+      width: 100%;
+      margin-left: 0;
+  }
+  .locationbox {
+      margin-left: 0;
+  }
+  .location {
       width: 100%;
       float: none;
-    }
-    
-    .locationbox {
-      margin-left: 0;
-    }
-    
-    .sourcecode {
-      margin-left: 0;
-    }
-    
-    .myndir-2 {
-      grid-template-columns: 1fr 1fr;
-    }
-    
-    .myndir-2-items {
-      height: auto;
-    }
-    
-    .scania {
-      padding: 30px;
-    }
   }
-  
-  /* styles for screens between 768px and 1024px wide */
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .headerstyle {
-      font-size: 32px;
-    }
-    
-    nav li {
-      margin-right: 20px;
-    }
-    
-    .medium-boxes {
-      grid-template-columns: repeat(4, 1fr);
-    }
-    
-    .location {
-      width: 75%;
-    }
-    
-    .locationbox {
-      margin-left: 5%;
-    }
-    
-    .moreinfo, .sourcecode {
-      width: 75%;
-      margin-left: 12.5%;
-    }
-    
-    .myndir-2 {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .myndir-2-items {
-      height: auto;
-    }
-    
-    .scania {
-      padding: 40px;
-    }
+  .moreinfo {
+      width: 100%;
+      float: none;
+  }
+  .boxarrow {
+      position: relative;
+      bottom: 0;
+      right: 0;
+  }
 
-    .footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-    
-      .socials {
-        order: 1;
-        margin-bottom: 20px;
-      }
-    
-      .moreinfo {
-        order: 2;
-        margin-bottom: 20px;
-      }
-    
-      .location {
-        order: 3;
-      }
-      
-      .footer-nav {
-        margin-top: 20px;
-        text-align: center;
-      }
-      
-      .footer-nav li {
-        display: block;
-        margin-bottom: 10px;
-      }
+
+}
+
+
+/* styles for screens up to 1028px wide */
+@media (min-width: 481px )and (max-width: 1028px) {
+  .medium-boxes {
+      grid-template-columns: auto;
   }
+  .socials {
+      width: 100%;
+      float: none;
+  }
+  .sourcecode {
+      width: 100%;
+      margin-left: 0;
+  }
+  .locationbox {
+      margin-left: 0;
+  }
+  .location {
+      width: 100%;
+      float: none;
+  }
+  .moreinfo {
+      width: 100%;
+      float: none;
+  }
+  .boxarrow {
+      position: relative;
+      bottom: 0;
+      right: 0;
+  }
+}
